@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="example.Views.ItemsPage"
+             x:Name="BrowseItemsPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add Note" Clicked="AddItem_Clicked" />
+    </ContentPage.ToolbarItems>
+
+
+    <RefreshView IsRefreshing="{Binding IsBusy, Mode=TwoWay}" Command="{Binding LoadItemsCommand}">
+              
+        <CollectionView x:Name="ItemsCollectionView"
+                ItemsSource="{Binding Items}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="5" Margin="0">
+                        <Frame BorderColor="DimGray" BackgroundColor="Transparent" CornerRadius="8" Padding="15 ">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="6*" />
+                                    <ColumnDefinition Width="1*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source="{Binding ImageUrl}"/>
+                                <Label Text="{Binding Text}" TextColor="White" LineBreakMode="WordWrap" FontSize="16" Margin="15" 
+                                        Grid.Row="0" Grid.Column="1"/>
+                                <Button Text="x" Clicked="Remove_Clicked" Grid.Row="0" Grid.Column="2" TextColor="DarkRed" BackgroundColor="Transparent"/>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        
+    </RefreshView> 
+</ContentPage>

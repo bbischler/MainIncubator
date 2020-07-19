@@ -1,0 +1,16 @@
+D:\git\Incubator\example\example\example\bin\Debug\netstandard2.0\example.deps.json
+D:\git\Incubator\example\example\example\bin\Debug\netstandard2.0\example.dll
+D:\git\Incubator\example\example\example\bin\Debug\netstandard2.0\ref\example.dll
+D:\git\Incubator\example\example\example\bin\Debug\netstandard2.0\example.pdb
+D:\git\Incubator\example\example\example\obj\Debug\netstandard2.0\example.csprojAssemblyReference.cache
+D:\git\Incubator\example\example\example\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\git\Incubator\example\example\example\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+D:\git\Incubator\example\example\example\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\git\Incubator\example\example\example\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+D:\git\Incubator\example\example\example\obj\Debug\netstandard2.0\example.AssemblyInfoInputs.cache
+D:\git\Incubator\example\example\example\obj\Debug\netstandard2.0\example.AssemblyInfo.cs
+D:\git\Incubator\example\example\example\obj\Debug\netstandard2.0\example.dll
+D:\git\Incubator\example\example\example\obj\Debug\netstandard2.0\ref\example.dll
+D:\git\Incubator\example\example\example\obj\Debug\netstandard2.0\example.pdb
+D:\git\Incubator\example\example\example\obj\Debug\netstandard2.0\example.csproj.CoreCompileInputs.cache
+D:\git\Incubator\example\example\example\obj\Debug\netstandard2.0\XamlC.stamp
